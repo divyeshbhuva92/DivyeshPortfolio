@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="portstyle.css">
+    <title>Divyesh Bhuva</title>
+
+</head>
+
+<body>
+    <div id="bgimg">
+        <img src="./images/dark.png" class="bgimg" alt="" srcset="">
+
+    </div>
+
+
+
+    <div class="main flex flex-col items-center">
+
+        <nav
+            class="navbar navbar-default text-white font-medium navbar-fixed-top navbar flex w-full h-16 justify-between items-center">
+            <div class="mx-10">
+                <p>Divyesh's Portfolio</p>
+            </div>
+            <div class="flex">
+                <p class="mx-5 navlist" id="about">About</p>
+                <p class="mx-5 navlist" id="skills">Skills</p>
+                <p class="mx-5 navlist" id="connect">Connect</p>
+            </div>
+            <div class="flex">
+                <div class="mx-10 navlist">
+                    <p>Resume</p>
+                </div>
+                <div id="mode" class="h-auto w-5 flex items-center mr-10"><img src="./images/sun-white.svg" alt="">
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="flex mx-10 justify-evenly items-center mt-32 mb-20">
+
+            <div>
+                <P class="text-5xl font-bold antialiased my-3 mx-10">Divyesh Bhuva</P>
+                <P class="text-2xl font-normal mx-10">Full Stake Developer</P>
+            </div>
+            <div class="ml-40" id="profilepic">
+                <div
+                    class="h-60 w-60 border-4 border-cyan-700 rounded-full border-dotted flex justify-center items-center">
+                    <img src="/images/DEV.jpeg" alt="img" class="h-52 rounded-full ">
+                </div>
+            </div>
+        </div>
+
+        <div id="summary" class="summary text-xl mx-auto font-normal text-center  text-white">
+            <p> Hello! I'm a Self-taught and self-motivated Full Stack Developer with unlimited creativity, innovation
+                and passion for designing and developing web applications.</p>
+        </div>
+
+        <div id="skill" class="lang1 mx-auto">
+            <div class=" langglass flex flex-col items-center ">
+                <img src="/images/html.png" alt="" class="w-16 h-16">
+                <p class="font-medium text-2xl pt-5">HTML</p>
+            </div>
+            <div class=" langglass flex flex-col items-center ">
+                <img src="/images/css-3.png" alt="" class="w-16 h-16">
+                <p class="font-medium text-2xl pt-5">CSS</p>
+            </div>
+            <div class=" langglass flex flex-col items-center ">
+                <img src="/images/js.png" alt="" class="w-16 h-16">
+                <p class="font-medium text-2xl pt-5">JAVASCRIPT</p>
+            </div>
+            <div class=" langglass flex flex-col items-center ">
+                <img src="/images/jquery.png" alt="" class="w-16 h-16">
+                <p class="font-medium text-2xl pt-5">JQUERY</p>
+            </div>
+            <div class=" langglass flex flex-col items-center ">
+                <img src="/images/bootstrap.png" alt="" class="w-16 h-16">
+                <p class="font-medium text-2xl pt-5">BOOTSTRAP</p>
+            </div>
+            <div class=" langglass flex flex-col items-center ">
+                <img src="/images/tailwind.png" alt="" class="w-16 h-16">
+                <p class="font-medium text-2xl pt-5">TAILWIND</p>
+            </div>
+            <div class=" langglass flex flex-col items-center ">
+                <img src="/images/React.png" alt="" class="w-16 h-16">
+                <p class="font-medium text-2xl pt-5">REACT</p>
+            </div>
+            <div class=" langglass flex flex-col items-center ">
+                <img src="/images/githubRound.png" alt="" class="w-16 h-16">
+                <p class="font-medium text-2xl pt-5">GIT</p>
+            </div>
+        </div>
+
+
+        <div class="footer w-full mt-20 flex justify-between px-48 py-10">
+            <div class="contact" id="contact">
+                <div class="footericonbox">
+                    <img src="./images/email-ROUND-white.svg" alt="" class="h-10">
+                    <p class="footericontext">dev92bhuva@gmail.com</p>
+                </div>
+                <div class="footericonbox">
+                    <img src="./images/CALL-white.svg" alt="" class="h-10">
+                    <p class="footericontext">+91 92767 03503</p>
+                </div>
+                <div class="footericonbox">
+                    <img src="./images/WHATSAP-ROUND-white.svg" alt="" class="h-10">
+                    <p class="footericontext">+91 73833 86381</p>
+                </div>
+            </div>
+            <div class="social" id="social">
+                <div class="footericonbox">
+                    <img src="./images/linkedin-ROUND-white.svg" alt="" class="h-10">
+                    <p class="footericontext">divyesh-bhuva-0266b710a</p>
+                </div>
+                <div class="footericonbox">
+                    <img src="./images/github-white.svg" alt="" class="h-10">
+                    <p class="footericontext">+91 92767 03503</p>
+                </div>
+                <div class="footericonbox">
+                    <img src="./images/LOCATION-ROUND-white.svg" alt="" class="h-10">
+                    <p class="footericontext">SURAT, GUJARAT, INDIA</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

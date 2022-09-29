@@ -1,0 +1,122 @@
+:root {
+  --dark: rgb(36, 36, 36);
+  --white: #f1f1f1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* .mainbg {
+  background-image: url("./images/dark1.png");
+  background-color: black;
+  position: absolute;
+} */
+
+.bgimg {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  /* background-image: url("./images/dark.png"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: black; */
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+p {
+  color: var(--white);
+}
+
+.navbar {
+  position: fixed;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.6px);
+  -webkit-backdrop-filter: blur(5.6px);
+}
+
+.summary {
+  width: 80%;
+  padding: 60px;
+  margin-bottom: 60px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.6px);
+  -webkit-backdrop-filter: blur(5.6px);
+}
+
+.langglass {
+  width: 200px;
+  margin: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.6px);
+  -webkit-backdrop-filter: blur(5.6px);
+  padding: 40px;
+}
+
+.lang1 {
+  max-width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.navlist {
+  /* width: 100px; */
+  padding: 7px 30px;
+}
+
+.navlist:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.6px);
+  -webkit-backdrop-filter: blur(5.6px);
+}
+
+.mode {
+  /* width: 100px; */
+  padding: 7px 15px;
+}
+
+.mode:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.6px);
+  -webkit-backdrop-filter: blur(5.6px);
+}
+
+.footer {
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.6px);
+  -webkit-backdrop-filter: blur(5.6px);
+  height: fit-content;
+}
+
+.footericonbox {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.footericontext {
+  display: flex;
+  align-items: center;
+  font-size: large;
+  padding: 0 10px;
+}
